@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% if page.landing-page %}
+      {% include header.html %}
+      {% include hero.html %}
+      {% include about.html %}
+      {% include page_content.html %}
+      {% include contact.html %}
+      {% include footer.html %}
+      {% include js.html %}
+    {% elsif page.menuiseries %}
+      {% include header.html %}
+      {% include cards.html %}
+      {% include footer.html %}
+      {% include js.html %}
+    {% elsif page.chantiers %}
+      {% include header.html %}
+      {% include chantiers.html %}
+      {% include footer.html %}
+      {% include js.html %}
+    {% else %}
+      {% include header.html %}
+      {% include form.html %}
+      {% include footer.html %}
+      {% include js.html %}
+    {% endif %}
+  </body>
+</html>

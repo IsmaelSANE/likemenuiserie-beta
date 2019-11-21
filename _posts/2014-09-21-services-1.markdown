@@ -1,0 +1,12 @@
+---
+layout: default
+img: like-menuiseries-alexis.jpeg
+category: Services
+title: Accompagnement et Suivi
+description: |
+---
+  Chaque projet, petit ou grand, fait l'objet de toute notre attention. <br>
+  Nos services sont à votre disposition pour vous conseiller, vous guider, et
+  pour que nous trouvions ensemble la solution qui conviendra le mieux à vos
+  attentes. <br>
+  Avec LIKE Menuiserie, vous êtes entre de bonnes mains.
