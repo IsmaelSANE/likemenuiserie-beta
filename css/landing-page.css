@@ -50,7 +50,7 @@ h6 {
 }
 
 #intro-cards{
-  margin-top: 100px;
+  margin-top: 160px;
 }
 
 .lead {
@@ -390,7 +390,7 @@ p.copyright {
    position: fixed;
    left: 50%;
    transform: translateX(-50%);
-   bottom: 50px;
+   bottom: 20px;
 }
 
 
