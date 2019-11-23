@@ -309,6 +309,9 @@ p.copyright {
 
 
 /* CHANTIERS STYLES*/
+.first-part {
+  margin-top: 60px;
+}
 .second-part {
   margin-top: 220px;
 }
