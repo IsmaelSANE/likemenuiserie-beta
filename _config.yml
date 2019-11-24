@@ -1,5 +1,7 @@
 exclude: ['vendor']
 root: /octo-5
+baseurl: /likemenuiserie-beta/
+url: http://ismaelsane.github.io
 # ----------------------- #
 #      Main Configs       #
 # ----------------------- #
