@@ -49,10 +49,12 @@ h6 {
   width: auto;
 }
 
-#intro-cards{
+#intro-cards {
+  margin-top: 160px;
+}
+#intro-contact {
   margin-top: 100px;
 }
-
 .lead {
     font-size: 18px;
     font-weight: 400;
