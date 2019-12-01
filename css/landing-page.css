@@ -65,12 +65,11 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/roberto-nickson-oQJO7TpRZj0-unsplash.jpg) no-repeat center center;
     background-size: cover;
     background-position: center bottom;
 }
 
-/*video.background {
+video.background {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -80,7 +79,11 @@ h6 {
     height: auto;
     z-index: -100;
     transform: translate(-50%, -50%);
-}*/
+}
+
+.society {
+  margin-top: 200px;
+}
 
 .intro-message {
     position: relative;
