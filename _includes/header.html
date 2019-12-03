@@ -10,7 +10,15 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="header-logo navbar-brand page-scroll" href="{{ "/" | relative_url }}">
-             <img src="/img/logo-like.png" alt="Like Menuiserie">
+              {% if page.landing-page %}
+              <img src="img/logo-like.png" alt="Like Menuiserie">
+              {% elsif page.menuiseries %}
+              <img src="/img/logo-like.png" alt="Like Menuiserie">
+              {% elsif page.chantiers %}
+              <img src="/img/logo-like.png" alt="Like Menuiserie">
+              {% else page.contact %}
+              <img src="/img/logo-like.png" alt="Like Menuiserie">
+              {% endif %}
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
