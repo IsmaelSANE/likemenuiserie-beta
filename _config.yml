@@ -1,7 +1,7 @@
 # ----------------------- #
 #      Main Configs       #
 # ----------------------- #
-
+root: /
 url: http://likemenuiserie.com
 title: LIKE MENUISERIE
 email: contact@likemenuiserie.com

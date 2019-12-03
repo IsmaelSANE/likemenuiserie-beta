@@ -9,7 +9,15 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- Bootstrap Core CSS -->
+    {% if page.landing-page %}
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    {% elsif page.menuiseries %}
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    {% elsif page.chantiers %}
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    {% else page.contact %}
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    {% endif %}
 
     {% if page.menuiseries %}
     <!-- W3 CSS -->
@@ -17,8 +25,15 @@
     {% endif %}
 
     <!-- Custom CSS -->
+    {% if page.landing-page %}
+    <link href="css/landing-page.css" rel="stylesheet">
+    {% elsif page.menuiseries %}
     <link href="/css/landing-page.css" rel="stylesheet">
-
+    {% elsif page.chantiers %}
+    <link href="/css/landing-page.css" rel="stylesheet">
+    {% else page.contact %}
+    <link href="/css/landing-page.css" rel="stylesheet">
+    {% endif %}
 
 
     <!-- Custom Fonts -->
