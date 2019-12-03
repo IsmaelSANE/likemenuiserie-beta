@@ -13,7 +13,8 @@ description: > # "Write an awesome description for your new site here.
   rénovation, sur Bordeaux Métropole et l'ensemble du département de la Gironde.
 copyright: 'Copyright &copy; 2019 Like Menuiserie. All Rights Reserved.'
 credits: 'LIKE MENUISERIE: Centre Emeraude - 61-69 Rue Camille Pelletan - Cedex 30 - 33150 Cenon <a href="/contact">06 51 50 19 32</a>.'
-
+# baseurl: "/likemenuiserie-beta"
+# url: http://IsmaelSANE.github.io
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #

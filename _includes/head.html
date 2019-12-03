@@ -10,13 +10,13 @@
 
     <!-- Bootstrap Core CSS -->
     {% if page.landing-page %}
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relative_url }}" />
     {% elsif page.menuiseries %}
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | relative_url }}" />
     {% elsif page.chantiers %}
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | relative_url }}" />
     {% else page.contact %}
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | relative_url }}" />
     {% endif %}
 
     {% if page.menuiseries %}
@@ -26,13 +26,13 @@
 
     <!-- Custom CSS -->
     {% if page.landing-page %}
-    <link href="css/landing-page.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "css/landing-page.css" | relative_url }}" />
     {% elsif page.menuiseries %}
-    <link href="/css/landing-page.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/css/landing-page.css" | relative_url }}" />
     {% elsif page.chantiers %}
-    <link href="/css/landing-page.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/css/landing-page.css" | relative_url }}" />
     {% else page.contact %}
-    <link href="/css/landing-page.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/css/landing-page.css" | relative_url }}" />
     {% endif %}
 
 
