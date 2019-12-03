@@ -6,22 +6,22 @@
         <div class="col-md-8">
           <ul class="list-inline">
             <li>
-              <a href="/">Acceuil</a>
+              <a href="{{ "/" | relative_url }}">Acceuil</a>
             </li>
             <li class="footer-menu-divider">&sdot;</li>
             <li>
-              <a href="/#about">Notre Entreprise</a>
+              <a href="{{ "/#about" | relative_url }}">Notre Entreprise</a>
             </li>
             <li class="footer-menu-divider">&sdot;</li>
             <li>
-              <a href="/menuiseries">Nos menuiseries</a>
+              <a href="{{ "/menuiseries" | relative_url }}">Nos menuiseries</a>
             </li>
             <li class="footer-menu-divider">&sdot;</li>
             <li>
-              <a href="/chantiers">Nos chantiers</a>
+              <a href="{{ "/chantiers" | relative_url }}">Nos chantiers</a>
             </li>
             <li>
-              <a class="page-scroll" href="/likemenuiserie-beta/contact">Contact</a>
+              <a class="page-scroll" href="{{ "/contact" | relative_url }}">Contact</a>
             </li>
           </ul>
           <p class="copyright text-muted small">
