@@ -118,10 +118,13 @@ video.background {
       margin-top: 260px;
     }
     .cards-container {
-      margin-left: 95px;
+      margin-left: 85px;
     }
     .w3-card-4 {
       margin-bottom: 20px;
+    }
+    .society {
+        margin-top: 30px;
     }
     video.background {
       position: absolute;
