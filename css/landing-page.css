@@ -224,10 +224,42 @@ video.background {
 }
 
 @media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
+  #intro-cards {
+    margin-top: 260px;
+  }
+  .cards-container {
+    margin-left: 85px;
+  }
+  .w3-card-4 {
+    margin-bottom: 20px;
+  }
+  .society {
+      margin-top: 30px;
+  }
+  video.background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 0%;
+    min-height: 0%;
+    width: 0;
+    height: 0;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+  }
+  .intro-header {
+      padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+      padding-bottom: 50px;
+      text-align: center;
+      color: #f8f8f8;
+      background: url(../img/roberto-nickson-oQJO7TpRZj0-unsplash.jpg) no-repeat center center;
+      background-size: cover;
+      background-position: center bottom;
+  }
+  ul.banner-social-buttons {
+      float: left;
+      margin-top: 15px;
+  }
 }
 
 @media(max-width:767px) {
