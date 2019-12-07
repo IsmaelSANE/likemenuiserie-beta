@@ -91,7 +91,10 @@ video.background {
 }
 
 .society {
-  margin-top: 200px;
+  margin-top: 30px;
+}
+.last-p{
+  margin-bottom: 30px;
 }
 
 .intro-message {
