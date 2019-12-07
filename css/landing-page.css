@@ -20,7 +20,8 @@ h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
-
+a {
+}
 .content-container {
   display: flex;
   flex: 1 1 auto;
