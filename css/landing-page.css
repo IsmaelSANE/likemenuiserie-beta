@@ -130,6 +130,9 @@ video.background {
       height: 100%;
       width: auto;
     }
+    #intro-contact {
+      margin-top: 130px;
+    }
     video.background {
       position: absolute;
       top: 50%;
