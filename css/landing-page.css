@@ -535,6 +535,7 @@ p.copyright {
 /* Modal Content (Image) */
 .modal-content {
   margin: auto;
+  margin-top: 20px;
   display: block;
   width: 80%;
   max-width: 700px;
