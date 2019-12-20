@@ -78,20 +78,9 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
+    background: url(../img/roberto-nickson-oQJO7TpRZj0-unsplash.jpg) no-repeat center center;
     background-size: cover;
     background-position: center bottom;
-}
-
-video.background {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translate(-50%, -50%);
 }
 
 .society {
@@ -103,7 +92,7 @@ video.background {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
+    padding-top: 10%;
     padding-bottom: 20%;
 }
 
@@ -143,17 +132,7 @@ video.background {
     #intro-contact {
       margin-top: 130px;
     }
-    video.background {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      min-width: 0%;
-      min-height: 0%;
-      width: 0;
-      height: 0;
-      z-index: -100;
-      transform: translate(-50%, -50%);
-    }
+
     .intro-header {
         padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
         padding-bottom: 50px;
@@ -254,17 +233,7 @@ video.background {
   .society {
       margin-top: 30px;
   }
-  video.background {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 0%;
-    min-height: 0%;
-    width: 0;
-    height: 0;
-    z-index: -100;
-    transform: translate(-50%, -50%);
-  }
+
   .header-logo img {
       height: 100%;
       width: auto;
