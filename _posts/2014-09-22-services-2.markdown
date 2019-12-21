@@ -2,14 +2,11 @@
 layout: default
 img: daniel-mccullough-HtBlQdxfG9k-unsplash.jpg
 category: Services
-title: Maîtrise des chantiers
+title: Maîtrise et gestion des chantiers
 description: |
 ---
   Tous nos services communiquent efficacement entre eux pour vous faciliter la
   vie. <br>
-  Fini le stress du chantier qui part dans tout les sens et dont le résultat
-  final ne vous convient pas. <br>
-  Nous suivons votre projets au quotidien de nôtre première rencontre, jusqu'à
-  la fin de la réalisation effectuée par nos poseurs agrées.<br>
-  Toute la durée de vie de vôtre projet vous beneficirez du professionnalisme hors
-  pair de LIKE Menuiserie.
+  Dès notre première rencontre, nous mettons tout en œuvre pour vous aider dans
+  la réalisation de votre projet. <br>
+  Pendant toute la durée de votre projet, vous bénéficierez du professionnalisme des équipes de LIKE Menuiserie.
