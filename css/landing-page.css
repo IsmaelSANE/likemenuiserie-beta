@@ -28,6 +28,10 @@ h6 {
     font-weight: 700;
 }
 
+.hero-logo {
+  width: 45%;
+}
+
 .content-container {
   display: flex;
   flex: 1 1 auto;
