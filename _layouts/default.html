@@ -21,6 +21,11 @@
       {% include chantiers.html %}
       {% include footer.html %}
       {% include js.html %}
+    {% elsif page.mentions %}
+      {% include header.html %}
+      {% include mentions.html %}
+      {% include footer.html %}
+      {% include js.html %}
     {% else %}
       {% include header.html %}
       {% include form.html %}
