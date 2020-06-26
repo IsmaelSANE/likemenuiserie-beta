@@ -1,0 +1,730 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+ body{
+  font-size: 16px;
+ }
+@media(min-width: 1400px){
+  body{
+   font-size: 18px;
+  }
+}
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.map-responsive {
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;>
+height:0;
+}
+
+.map-responsive iframe {
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.hero-logo {
+  width: 45%;
+}
+
+.content-container {
+  display: flex;
+  flex: 1 1 auto;
+  padding-top: 10vh;
+  width: 100%;
+}
+
+.cards-container {
+  /*width: 100%;
+  margin: 0px auto;*/
+}
+
+.header-logo {
+  /*background-color: #2e576c;*/
+  box-sizing: border-box;
+  display: block;
+  height: 15vh;
+  left: -10px;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  width: 10vh;
+}
+.header-logo img {
+  height: 100%;
+  width: auto;
+}
+
+.navbar-nav>li>a {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  font-size: 18px;
+}
+
+#intro-cards {
+  margin-top: 160px;
+}
+#intro-contact {
+  margin-top: 100px;
+}
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/roberto-nickson-oQJO7TpRZj0-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.society {
+  margin-top: 100px;
+}
+.last-p{
+  margin-bottom: 30px;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    #intro-cards {
+      margin-top: 260px;
+    }
+    .cards-container {
+      margin-left: 85px;
+    }
+    .w3-card-4 {
+      margin-bottom: 20px;
+    }
+    .society {
+      margin-top: 30px;
+    }
+    .header-logo img {
+      height: 100%;
+      width: auto;
+    }
+    #intro-contact {
+      margin-top: 130px;
+    }
+
+    .intro-header {
+        padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+        padding-bottom: 50px;
+        text-align: center;
+        color: #f8f8f8;
+        background: url(../img/roberto-nickson-oQJO7TpRZj0-unsplash.jpg) no-repeat center center;
+        background-size: cover;
+        background-position: center bottom;
+    }
+    .intro-message {
+      padding-top: 55%;
+      padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+    .credits {
+      margin-top: 80px;
+      margin-left: 15px;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+  #intro-cards {
+    margin-top: 260px;
+  }
+  .cards-container {
+    margin-left: 85px;
+  }
+  .w3-card-4 {
+    margin-bottom: 20px;
+  }
+  .society {
+      margin-top: 30px;
+  }
+
+  .header-logo img {
+      height: 100%;
+      width: auto;
+  }
+  .intro-header {
+      padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+      padding-bottom: 50px;
+      text-align: center;
+      color: #f8f8f8;
+      background: url(../img/roberto-nickson-oQJO7TpRZj0-unsplash.jpg) no-repeat center center;
+      background-size: cover;
+      background-position: center bottom;
+  }
+  ul.banner-social-buttons {
+      float: left;
+      margin-top: 15px;
+  }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+/* TESTIMONIALS STYLES */
+.testimonials {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 250px;
+}
+
+.testimonials ul {
+  list-style: none;
+  padding: 0;
+}
+
+.testimonials li {
+  display: inline-block;
+  /*background-color: white;*/
+  margin: 50px 10px 10px 10px;
+  width: calc((100% - 55px) / 2);
+  height: 15.625em;
+  border: solid 1px #bdbdbd;
+  position: relative;
+  transition: ease-in-out .3s;
+}
+
+.testimonials li img {
+  height: 70px;
+  width: 70px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  /*box-shadow: 0px 0px 0px 15px #fff;*/
+  background-color: #fff;
+  transition: box-shadow 0.3s linear;
+}
+
+.testimonials li p {
+  position: absolute;
+  width: 70%;
+  text-align: center;
+  top: 50px;
+  left: 50%;
+  transform: translatex(-50%);
+  font-size: 15px;
+}
+
+.testimonials li h1 {
+  position: absolute;
+  text-decoration: bold;
+  bottom: 10px;
+  left: 50%;
+  transform: translatex(-50%);
+  font-size: 17px;
+}
+
+.testimonials li:hover {
+  background-color: #2e576c;
+  color: #fff;
+}
+
+.testimonials li:hover img {
+  box-shadow: 0px 0px 0px 2px #fff;
+}
+
+@media only screen and (max-width: 860px) {
+  .testimonials li {
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-top: 70px;
+  }
+
+  .testimonials li:first-child {
+    margin-top: 50px;
+  }
+  p {
+    line-height: 1;
+    margin: 0.75em 0;
+  }
+}
+
+.container-like {
+  display: block;
+  width: 70%;
+  margin: auto;
+  height: 100%;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 750px) {
+  .container-like {
+    width: 90%;
+  }
+  .modal-content {
+    margin-top: 200px;
+  }
+}
+
+.container-like h1, h2, h3 {
+  margin-top: 15px;
+  margin-left: 0;
+  font-weight: 400;
+}
+
+.container-like span {
+  color: #757575;
+  font-weight: 600;
+}
+
+
+/* CHANTIERS STYLES*/
+.second-part {
+  margin-top: 220px;
+}
+ #carousel {
+   position: relative;
+   height: 400px;
+   top: 50%;
+   transform: translateY(-50%);
+   overflow: hidden;
+}
+ #carousel div {
+   position: absolute;
+   transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+   opacity: 1;
+}
+ #carousel div img {
+   width: 400px;
+   transition: width 1s;
+   cursor: pointer;
+}
+ #carousel div.hideLeft {
+   left: 0%;
+   opacity: 0;
+   transform: translateY(50%) translateX(-50%);
+}
+ #carousel div.hideLeft img {
+   width: 200px;
+}
+ #carousel div.hideRight {
+   left: 100%;
+   opacity: 0;
+   transform: translateY(50%) translateX(-50%);
+}
+ #carousel div.hideRight img {
+   width: 200px;
+}
+ #carousel div.prev {
+   z-index: 5;
+   left: 30%;
+   transform: translateY(50px) translateX(-50%);
+}
+ #carousel div.prev img {
+   width: 300px;
+}
+ #carousel div.prevLeftSecond {
+   z-index: 4;
+   left: 15%;
+   transform: translateY(50%) translateX(-50%);
+   opacity: 0.7;
+}
+ #carousel div.prevLeftSecond img {
+   width: 200px;
+}
+ #carousel div.selected {
+   z-index: 10;
+   left: 50%;
+   transform: translateY(0px) translateX(-50%);
+}
+ #carousel div.next {
+   z-index: 5;
+   left: 70%;
+   transform: translateY(50px) translateX(-50%);
+}
+ #carousel div.next img {
+   width: 300px;
+}
+ #carousel div.nextRightSecond {
+   z-index: 4;
+   left: 85%;
+   transform: translateY(50%) translateX(-50%);
+   opacity: 0.7;
+}
+ #carousel div.nextRightSecond img {
+   width: 200px;
+}
+ .buttons {
+   position: fixed;
+   left: 50%;
+   transform: translateX(-50%);
+   bottom: 50px;
+}
+
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(95, 105, 118); /* Fallback color */
+  background-color: rgba(95, 105, 118,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  margin-top: 30px;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+@media (max-width: 750px) {
+  .modal-content {
+    margin-top: 200px;
+  }
+}
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 150px;
+  right: 35px;
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* CONTACT STYLES */
+input:focus, textarea:focus, keygen:focus, select:focus {
+  outline: none;
+}
+::-moz-placeholder {
+  color: #666;
+  font-weight: 300;
+  opacity: 1;
+}
+
+::-webkit-input-placeholder {
+  color: #666;
+  font-weight: 300;
+}
+
+
+/* Contact Form Styling */
+.container-2 {
+  padding: 0px;
+  margin: 10px;
+}
+.textcenter {
+  text-align: center;
+}
+.section1 {
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+.section1 .shtext {
+  display: block;
+  margin-top: 20px;
+}
+.section1 .seperator {
+  border-bottom:1px solid #a2a2a2;
+  width: 35px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.section1 h1 {
+  font-size: 40px;
+  color: #A44DD8;
+  font-weight: normal;
+}
+
+.section2 {
+    width: 1200px;
+    margin: 25px auto;
+}
+.section2 .col2 {
+  width: 48.71%;
+}
+.section2 .col2.first {
+  float: left;
+}
+.section2 .col2.last {
+  float: right;
+}
+.section2 .col2.column2 {
+  padding: 0 30px;
+}
+.section2 span.collig {
+  color: #a2a2a2;
+  margin-right: 10px;
+  display: inline-block;
+}
+.section2 .sec2addr {
+  display: block;
+  line-height: 26px;
+}
+.section2 .sec2addr p:first-child {
+  margin-bottom: 10px;
+}
+.section2 .sec2contactform input[type="text"],
+.section2 .sec2contactform input[type="email"],
+.section2 .sec2contactform textarea {
+    padding: 18px;
+    border: 0;
+    background: #EDEDED;
+    margin: 7px 0;
+}
+.section2 .sec2contactform textarea {
+  width: 100%;
+  display: block;
+  color: #666;
+  resize:none;
+}
+.section2 .sec2contactform input[type="submit"] {
+  padding: 15px 40px;
+    color: #fff;
+    border: 0;
+    background: #2e576c;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 7px 0;
+    cursor: pointer;
+}
+.section2 .sec2contactform h3 {
+  font-weight: normal;
+    margin: 20px 0;
+    margin-top: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 19px;
+    color: #2e576c;
+}
+
+/* @media querries */
+
+@media only screen and (max-width: 1266px) {
+  .section2 {
+    width: 1000px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .container {
+    padding: 0 30px 0px;
+  }
+  .section2 .col2 {
+    width: 100%;
+    display: block;
+  }
+  .section2 .col2.first {
+    margin-bottom: 10px;
+  }
+  .section2 .col2.column2 {
+    padding: 0;
+  }
+  body .sec2map {
+    height: 250px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section2 .sec2addr {
+    font-size: 14px;
+  }
+  .section2 .sec2contactform h3 {
+    font-size: 16px;
+  }
+  .section2 .sec2contactform input[type="text"], .section2 .sec2contactform input[type="email"], .section2 .sec2contactform textarea {
+    padding: 10px;
+    margin:3px 0;
+  }
+  .section2 .sec2contactform input[type="submit"] {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .section1 h1 {
+    font-size: 28px;
+  }
+}
